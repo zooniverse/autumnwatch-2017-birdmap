@@ -1,5 +1,9 @@
 import React from 'react';
+import mapConfig from '../lib/map-config.js';
+import MapExplorer from '../containers/Maps/MapExplorer';
 
 export default function Home() {
-  return (<p><img src="images/zooniverse-icon-web-white-small.png" />Welcome to Zooniverse Starter Project</p>);
+  return (
+    <MapExplorer mapConfig={mapConfig} />
+  );
 }

@@ -10,18 +10,20 @@ import config from './config';
 import configureStore from './store';
 
 import './styles/main.styl';
+import './images/favicon.ico';
 
 const store = configureStore();
 const history = createHistory();
 
-oauth.init(config.panoptesAppId)
-  .then(() => {
-    ReactDOM.render((
-      <Provider store={store}>
-        <Router history={history}>
-          <Route path="/" component={App} />
-        </Router>
-      </Provider>),
-      document.getElementById('root'),
-    );
-  });
+oauth
+.init(config.panoptesAppId)
+.then(() => {
+  ReactDOM.render((
+    <Provider store={store}>
+      <Router history={history}>
+        <Route path="/" component={App} />
+      </Router>
+    </Provider>),
+    document.getElementById('root'),
+  );
+});
