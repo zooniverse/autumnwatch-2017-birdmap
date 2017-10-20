@@ -1,26 +1,22 @@
-[![bitHound Score](https://www.bithound.io/github/Granze/react-starterify/badges/score.svg)](https://www.bithound.io/github/zooniverse/zoo-react-starterify/master)
+# Autumnwatch 2017 Birdmap
 
-# Zooniverse Reduxify
+A visual data map for Autumnwatch 2017.
 
-A minimal Redux application starter kit, based on [Zooniverse React Starterify](https://github.com/zooniverse/zoo-react-starterify).
+For context, the Zooniverse is working with the BBC for the 2017 Autumnwatch
+programme. Once volunteers provide a sufficient amount of data for the
+[project,](https://www.zooniverse.org/projects/penguintom79/seabirdwatch) we
+want to show them the results on a geographical map, divided by time. It's a
+Data Visualisation Tool, essentially.
 
-## Usage
+## Development
 
-__Install the dependencies:__
+- This is built on top of the [Zooniverse Reduxify](https://github.com/zooniverse/zoo-reduxify) project.
 
-`npm install`
+Starting the project:
 
-__Test:__
-
-```npm run test```
-
-__Development mode with livereload:__
-
-```npm run start```
-
-__When you are done, create a production-ready version of the JS bundle:__
-
-```npm run build```
+1. `npm install` to install dependencies.
+2. `npm start` to start the project.
+3. `http://localhost:4000` to view the project on your web browser.
 
 ## Credits
 
@@ -28,7 +24,7 @@ Thanks to [Granze](https://github.com/Granze) for the original [React Starterify
 
 ## License
 
-Copyright 2015 Zooniverse
+Copyright 2017 Zooniverse
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

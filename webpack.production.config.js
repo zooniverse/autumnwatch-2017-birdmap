@@ -13,12 +13,12 @@ module.exports = {
   ],
 
   output: {
-    path: path.join(__dirname, '/dist/'),
+    path: path.join(__dirname, '/app/'),
     filename: '[name]-[hash].min.js',
   },
 
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(['app']),
     new HtmlWebpackPlugin({
       template: 'src/index.tpl.html',
       inject: 'body',
