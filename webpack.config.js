@@ -61,7 +61,7 @@ module.exports = {
         // 'eslint-loader' uncomment if you want to use eslint while compiling
       ]
     }, {
-      test: /\.(jpg|png|gif|otf|eot|svg|ttf|woff\d?)$/,
+      test: /\.(jpg|png|gif|ico|otf|eot|svg|ttf|woff\d?)$/,
       use: 'file-loader'
     }, {
       test: /\.styl$/,

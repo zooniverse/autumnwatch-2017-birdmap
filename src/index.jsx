@@ -10,6 +10,7 @@ import config from './config';
 import configureStore from './store';
 
 import './styles/main.styl';
+import './images/favicon.ico';
 
 const store = configureStore();
 const history = createHistory();
