@@ -62,7 +62,7 @@ module.exports = {
       ]
     }, {
       test: /\.(jpg|png|gif|ico|otf|eot|svg|ttf|woff\d?)$/,
-      use: 'file-loader'
+      use: 'file-loader?name=[name].[ext]'
     }, {
       test: /\.styl$/,
       use: [{
